@@ -8,7 +8,8 @@ Each camera at a node can monitor its parent, itself, and its immediate children
 > Calculate the minimum number of cameras needed to monitor all nodes of the tree.
 
 
-`class Solution{
+`
+class Solution{
     int ans= 0;
     int  Cams(Node root) 
     {
@@ -18,7 +19,7 @@ Each camera at a node can monitor its parent, itself, and its immediate children
         return ans;
     }
    int   Find(Node root)
-   {`
+   {
        
         if (root == null)
             return -1;
@@ -33,4 +34,6 @@ Each camera at a node can monitor its parent, itself, and its immediate children
         }
        if ((leftState == 1 || leftState == -1) && (rightState == 1 || rightState == -1))
             return 0;
-        return 1;}}` 
+        return 1;
+	}
+}` 
