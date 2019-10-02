@@ -7,6 +7,7 @@ Each camera at a node can monitor its parent, itself, and its immediate children
 
 > Calculate the minimum number of cameras needed to monitor all nodes of the tree.
 
+## So Here's my Solution, check it out
 
 ```
 class Solution{
@@ -38,3 +39,5 @@ class Solution{
 	}
 }
 ``` 
+**I have also uploaded a video explaining the same, take a look**
+
